@@ -1,0 +1,11 @@
+/* Navbar */
+
+.navbar-nav{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.logo{
+    max-width: 70px;
+    max-height: 70px;
+}
