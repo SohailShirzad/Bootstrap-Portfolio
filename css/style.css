@@ -1,11 +1,41 @@
+
+
+
+
+
 /* Navbar */
+.align-items-center{
+    justify-content: center;
+}
 
 .navbar-nav{
     margin-right: 0;
     margin-left: auto;
 }
 
+.nav-background{
+    background-color: rgba(15, 23, 42, 10);
+}
+
+.navbar-nav a{
+    color: #CCd6F6;
+}
+
 .logo{
     max-width: 70px;
     max-height: 70px;
 }
+
+/* Body */
+body{
+    background-color: rgba(15, 23, 42, 10);
+    color:#CCd6F6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction p:first-child{
+    color:#64FFDA;
+}
+
+
