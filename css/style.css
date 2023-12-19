@@ -1,6 +1,13 @@
+:root {
+    --gray: #CCd6F6;
+    --aqua: rgb(94 234 212);
+    --dark:rgba(15, 23, 42, 10);
+  }
 
 
-
+.aqua{
+    color: var(--aqua);
+}
 
 
 /* Navbar */
@@ -14,11 +21,11 @@
 }
 
 .nav-background{
-    background-color: rgba(15, 23, 42, 10);
+    background-color: var(--dark);
 }
 
 .navbar-nav a{
-    color: #CCd6F6;
+    color:var(--gray);
 }
 
 .logo{
@@ -28,14 +35,23 @@
 
 /* Body */
 body{
-    background-color: rgba(15, 23, 42, 10);
-    color:#CCd6F6;
+    background-color: var(--dark);
+    color:var(--gray);
     margin-left: auto;
     margin-right: auto;
 }
 
-.introduction p:first-child{
-    color:#64FFDA;
+main{
+    margin: 3rem auto 0 auto
+}
+.margin-top{
+    margin-top: 7rem;
+}
+
+.list-group-item{
+    color: var(--gray);
+    background-color: var(--dark);
+    border: none;
 }
 
 
