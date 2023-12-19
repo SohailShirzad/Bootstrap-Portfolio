@@ -42,7 +42,7 @@ body{
 }
 
 main{
-    margin: 3rem auto 0 auto
+    margin: 3rem auto 3rem auto
 }
 .margin-top{
     margin-top: 7rem;
@@ -53,5 +53,35 @@ main{
     background-color: var(--dark);
     border: none;
 }
+
+.list-group-non-b{
+    display: flex;
+    gap:2rem;
+    list-style: none;
+}
+
+.list-group-non-b-item{
+    
+    color: rgb(94 234 212);
+    background-color: rgba(94, 234, 212, 0.2);
+    border-radius: 1rem;
+    padding: 0.55rem;
+}
+
+.contact-email-button{
+color: rgb(94 234 212);
+border: 1px solid rgb(94 234 212);
+border-radius: 1rem;
+padding: 0.55rem;
+text-decoration: none;
+}
+.card{
+    background-color: var(--dark);
+    color: var(--gray);
+}
+.card-img-top{
+    height: 150px;
+}
+
 
 
